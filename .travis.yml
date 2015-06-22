@@ -1,3 +1,4 @@
 language: objective-c
 xcode_project: SampleApp.xcodeproj # path to your xcodeproj folder
 xcode_scheme: SampleApp
+script: xctool -project SampleApp.xcodeproj -scheme SampleApp build  CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
